@@ -2,7 +2,7 @@ name: native_theme_mode
 description: >-
   Sync Flutter ThemeMode to native Android night mode and iOS UI style so
   Android 12+ splash follows the in-app theme on the next cold start.
-version: 0.2.0
+version: 0.3.0
 homepage: https://github.com/RekanDev/native_theme_mode
 repository: https://github.com/RekanDev/native_theme_mode
 issue_tracker: https://github.com/RekanDev/native_theme_mode/issues

@@ -1,3 +1,9 @@
+## 0.3.0
+
+* Add pub.dev screenshots for the manual and system theme demos.
+* Update README image links to raw GitHub URLs for reliable rendering on pub.dev.
+* Align analysis options with Flutter 3.47 exclude defaults for CI stability.
+
 ## 0.2.0
 
 * Refresh the package README with the new logo and demo presentation updates.

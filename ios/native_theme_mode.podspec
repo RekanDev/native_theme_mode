@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'native_theme_mode'
-  s.version          = '0.1.0'
+  s.version          = '0.3.0'
   s.summary          = 'Sync Flutter ThemeMode to native Android night mode and iOS UI style.'
   s.description      = <<-DESC
 Sync Flutter ThemeMode (light / dark / system) to the native platform so Android 12+ splash uses the in-app theme on the next cold start, and iOS overrideUserInterfaceStyle matches while the app is running.
