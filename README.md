@@ -3,7 +3,7 @@
 [![pub package](https://img.shields.io/pub/v/native_theme_mode.svg)](https://pub.dev/packages/native_theme_mode)
 
 <p align="center">
-  <img src="assets/logo/native_theme_mode_logo.png" alt="native_theme_mode logo" width="250"/>
+  <img src="https://raw.githubusercontent.com/RekanDev/native_theme_mode/master/assets/logo/native_theme_mode_logo.png" alt="native_theme_mode logo" width="250"/>
 </p>
 
 Sync Flutter `ThemeMode` (light / dark / system) to the native platform so
@@ -22,13 +22,13 @@ native code. You do **not** edit `MainActivity.kt`, `AppDelegate.swift`,
       <strong>Manual Light / Dark</strong>
       <br/>
       <span style="display:block; height:10px;"></span>
-      <img src="assets/demo.gif" alt="native_theme_mode manual theme demo" width="320"/>
+      <img src="https://raw.githubusercontent.com/RekanDev/native_theme_mode/master/assets/demo.gif" alt="native_theme_mode manual theme demo" width="320"/>
     </td>
     <td align="center" style="padding: 0 20px;">
       <strong>System Mode</strong>
       <br/>
       <span style="display:block; height:10px;"></span>
-      <img src="assets/demo_system.gif" alt="native_theme_mode system theme demo" width="320"/>
+      <img src="https://raw.githubusercontent.com/RekanDev/native_theme_mode/master/assets/demo_system.gif" alt="native_theme_mode system theme demo" width="320"/>
     </td>
   </tr>
 </table>

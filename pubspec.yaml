@@ -35,3 +35,9 @@ flutter:
         pluginClass: NativeThemeModePlugin
       ios:
         pluginClass: NativeThemeModePlugin
+
+screenshots:
+  - description: Manual light and dark theme switching with splash persistence on cold start.
+    path: assets/demo.gif
+  - description: System theme mode following device light and dark changes.
+    path: assets/demo_system.gif
