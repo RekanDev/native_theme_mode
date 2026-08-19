@@ -2,6 +2,10 @@
 
 [![pub package](https://img.shields.io/pub/v/native_theme_mode.svg)](https://pub.dev/packages/native_theme_mode)
 
+<p align="center">
+  <img src="assets/logo/native_theme_mode_logo.png" alt="native_theme_mode logo" width="250"/>
+</p>
+
 Sync Flutter `ThemeMode` (light / dark / system) to the native platform so
 Android 12+ splash uses the in-app theme on the next cold start, and iOS
 `overrideUserInterfaceStyle` matches while the app is running.
