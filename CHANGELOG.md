@@ -1,3 +1,7 @@
+## 0.2.0
+
+* Refresh the package README with the new logo and demo presentation updates.
+
 ## 0.1.0
 
 * Initial release: sync Flutter `ThemeMode` to Android application night mode
