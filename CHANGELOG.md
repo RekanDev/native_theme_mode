@@ -1,3 +1,7 @@
+## 0.3.1
+
+* Use the package logo as the pub.dev screenshot thumbnail.
+
 ## 0.3.0
 
 * Add pub.dev screenshots for the manual and system theme demos.
