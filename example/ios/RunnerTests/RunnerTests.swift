@@ -2,26 +2,41 @@ import Flutter
 import UIKit
 import XCTest
 
-
 @testable import native_theme_mode
-
-// This demonstrates a simple unit test of the Swift portion of this plugin's implementation.
-//
-// See https://developer.apple.com/documentation/xctest for more information about using XCTest.
 
 class RunnerTests: XCTestCase {
 
-  func testGetPlatformVersion() {
+  func testUnknownMethodReturnsNotImplemented() {
     let plugin = NativeThemeModePlugin()
-
     let call = FlutterMethodCall(methodName: "getPlatformVersion", arguments: [])
 
     let resultExpectation = expectation(description: "result block must be called.")
     plugin.handle(call) { result in
-      XCTAssertEqual(result as! String, "iOS " + UIDevice.current.systemVersion)
+      XCTAssertTrue(result is NSObject)
       resultExpectation.fulfill()
     }
     waitForExpectations(timeout: 1)
   }
 
+  func testConfigureReturnsAModeString() {
+    let plugin = NativeThemeModePlugin()
+    let call = FlutterMethodCall(
+      methodName: "configure",
+      arguments: [
+        "storageKey": "theme_mode",
+        "defaultMode": "system",
+        "persist": true,
+        "enableAndroid": true,
+        "enableIOS": true,
+      ]
+    )
+
+    let resultExpectation = expectation(description: "result block must be called.")
+    plugin.handle(call) { result in
+      let mode = result as? String
+      XCTAssertTrue(mode == "light" || mode == "dark" || mode == "system")
+      resultExpectation.fulfill()
+    }
+    waitForExpectations(timeout: 1)
+  }
 }

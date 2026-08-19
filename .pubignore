@@ -1,0 +1,46 @@
+# If this file exists, pub uses it instead of .gitignore when packing.
+# Keep it in sync with files that should not ship to pub.dev.
+
+# VCS / IDE
+.git/
+.github/
+.idea/
+.vscode/
+example/.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Flutter / Dart generated
+.dart_tool/
+example/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+/coverage/
+example/build/
+**/doc/api/
+
+# Native generated
+**/.gradle/
+**/.cxx/
+**/local.properties
+**/GeneratedPluginRegistrant.java
+**/GeneratedPluginRegistrant.swift
+**/*.xcuserstate
+**/Pods/
+**/.build/
+**/.swiftpm/
+example/ios/Flutter/Flutter.framework
+example/ios/Flutter/Flutter.podspec
+example/ios/Flutter/ephemeral/
+
+# Misc
+.DS_Store
+*.class
+*.log
+*.apk
+*.aab

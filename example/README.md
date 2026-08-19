@@ -1,17 +1,13 @@
-# native_theme_mode_example
+# native_theme_mode example
 
-Demonstrates how to use the native_theme_mode plugin.
+Toggle light / dark / system. The plugin persists the choice and, on
+Android 12+, the **next** cold-start splash follows a light or dark
+selection.
 
-## Getting Started
+1. `cd example`
+2. `flutter pub get`
+3. `dart run flutter_native_splash:create` (already applied in this tree)
+4. `flutter run`
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Fully kill the app after toggling to see Android splash change. See the
+plugin [README](../README.md).
